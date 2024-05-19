@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* MAIN HEADER */
+
+#header {
+    padding: 20px 0;
+    background: #333;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.header span {
+    color: red;
+}
+
+
+
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 0.2ms;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.basket {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.header-btn button{
+    width: 180px;
+    height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: red;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* MIN-HEADER */
+
+#min-header {
+    padding: 10px 0;
+    background: red;
+}
+
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* LOGIN BLOCK */
+
+.log h1 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.log span {
+    color: red;
+}
+
+.log h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+.card {
+    width: 300px;
+    height: 440px;
+    border: 1px solid rgba(0, 0, 0, 0.504);
+    border-radius: 10px;
+    margin-left: 386px;
+    margin-top: 30px;
+}
+
+.card h3 {
+    margin: 10px 15px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin: 3px 15px;
+}
+
+.card input {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 270px;
+    height: 27px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.log-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-btn button {
+    margin-left: 15px;
+    width: 270px;
+    height: 27px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+    transition: background-color 0.2ms;
+}
+
+.log-btn button:active {
+    background-color: rgb(193, 103, 103);
+}
+
+.card h6{
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+
+.odobrenie button{
+    height: 50px;
+    width: 290px;
+    margin-left: 391px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.2ms;
+}
+
+.odobrenie button:active {
+    background-color: rgb(45, 163, 45);
+}
+
+
+
+/* DILLER BLOCK */
+
+.diller {
+    background: rgba(223, 223, 161, 0.542);
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #333;
+}
+
+.diller a  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.diller h1 {
+    margin-left: 20px;
+
+}
+
+.diller span {
+    color: red;
+}
+
+
+/* CATEGORY BLOCK */
+
+
+
+.category1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.category1 select {
+    width: 235px;
+    height: 34px;
+    padding-left: 10px;
+}
+
+.category2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.category2 select {
+    width: 235px;
+    height: 34px;
+    padding-left: 10px;
+}
+
+.category2 input {
+    width: 235px;
+    height: 34px;
+    padding-left: 10px;
+    outline: none;
+}
+
+
+
+/* ADMIN BLOCK */
+
+#admin h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#admin span {
+    color: red;
+}
+
+
+.admin {
+    width: 500px;
+    height: 1130px;
+    border: 1px solid black;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-left: 275px;
+    margin-bottom: 200px;
+}
+
+.spam {
+    margin-bottom: 40px;
+    color: red;
+}
+
+.admin p {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.admin input {
+    margin-left: 50px;
+    width: 400px;
+    height: 24px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.car_btns {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 15px;
+}
+
+.car_btns button {
+    width: 170px;
+    height: 40px;
+}
+
+.car_save {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.car_save:active {
+    background-color: rgb(124, 206, 124);
+}
+
+.cancel {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.cancel:active {
+    background-color: rgb(221, 141, 141);
+}
+
+
+
+
+/* MAIN BLOCK */
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 320px;
+    height: 700px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.box_img {
+    width: 300px;
+    height: 270px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text_content {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box_price {
+    color: green;
+    font-size: 20px;
+}
+
+.active_block {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin: 16px 13px;
+}
+
+.box_like {
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.box_delete {
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.box_buy {
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: -7px;
+    cursor: pointer;
+
+    transition: background-color 0.3ms;
+}
+
+.box_buy:active {
+    background-color: rgb(225, 118, 118);
+}
